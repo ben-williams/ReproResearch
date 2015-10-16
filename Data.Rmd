@@ -30,4 +30,6 @@ output: html_document
 
 ##Look at the data  
 Missing values or zeros, outliers, correct units? Don't use 999, etc.
- 
+
+----------------------------------
+[Home](http://ben-williams.github.io/) 
