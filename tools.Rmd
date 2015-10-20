@@ -1,0 +1,42 @@
+---
+title: 'Fish 627: Basic Workflow'
+author: "Ben Williams"
+date: "Oct 20 & 22, 2015"
+output: html_document
+---
+
+#Basics
+**Initial setup**   
+Set *Rstudio* to use *knitr* ```Tools <- Global Options <- Sweave```  
+also  set *Rstudio* to use *git* ```Tools <- Global Options <- Git/SVN```  
+you can also change the appearance of *RStudio* while you are in there 
+
+
+
+**Step 1**
+Create a repository in *GitHub* 
+
+**Step 2**
+In *RStudio* create a a new project with *Version Control*
+
+**Step 3**
+Copy the *git* repository https location and past it into the *Rstudio* version control repository location.  
+Provide a location for your local *RStudio* project. 
+
+**Step 4**
+Write code or text, or both with frequent reasonably descriptive **commits**  
+
+**Step 5** 
+When larger changes have been made **push** the code to *GitHub*  
+
+ - *if you are collaborating do a **pull** before the **push***
+
+*Note: All of this (and then some) can be done via the command line*  
+The command line can easily be accessed within *RStudio* via ```Tools <- Shell```
+
+Have an existing project that you would like to load into *GitHub*?  
+No problem, but it has to go through the command line, just follow [these directions](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+
+----------------------------------
+[Home](http://ben-williams.github.io/)
+ 
